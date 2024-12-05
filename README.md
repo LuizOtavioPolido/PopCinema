@@ -51,7 +51,7 @@ cd popcinema
 npm install
 ```
 
-3. Configure o `.env`:
+3. Configure o `.env` na raiz do projeto:
 
 ```bash
 API_KEY=SUA_CHAVE_AQUI
