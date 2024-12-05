@@ -1,0 +1,87 @@
+appId: com.anonymous.popcinema
+---
+- launchApp
+- assertVisible:
+    text: 'Open debugger to view warnings.'
+- tapOn:
+    point: '91%,89%'
+- tapOn: ', Search'
+- tapOn: ', Favorite'
+- tapOn: ', Home'
+- swipe:
+    end: '19%,25%'
+    start: '90%,25%'
+    duration: 1000
+- swipe:
+    end: '21%,63%'
+    start: '90%,63%'
+    duration: 1000
+- swipe:
+    end: '51%,7%'
+    start: '51%,80%'
+    duration: 1000
+- swipe:
+    end: '19%,34%'
+    start: '90%,34%'
+    duration: 1000
+- swipe:
+    end: '19%,72%'
+    start: '90%,72%'
+    duration: 1000
+- swipe:
+    end: '51%,80%'
+    start: '51%,7%'
+    duration: 1000
+- swipe:
+    end: '90%,25%'
+    start: '10%,25%'
+    duration: 1000
+- tapOn:
+    point: '19%,25%'
+- tapOn: ''
+- tapOn: ''
+- tapOn: ', Favorite'
+- tapOn: ', Search'
+- tapOn: 'Pesquisar...'
+- inputText:
+    text: 'Sorria'
+- tapOn:
+    point: '92%,88%'
+- tapOn: ''
+- tapOn:
+    point: '25%,28%'
+- tapOn: ''
+- swipe:
+    end: '75%,28%'
+    start: '75%,80%'
+    duration: 1000
+- tapOn: ''
+- tapOn: ''
+- tapOn: 'Terror'
+- swipe:
+    end: '75%,34%'
+    start: '75%,80%'
+    duration: 1000
+- tapOn: 'Limpar'
+- tapOn: ', Favorite'
+- tapOn: ', Home'
+- swipe:
+    end: '19%,25%'
+    start: '90%,25%'
+    duration: 1000
+- swipe:
+    end: '19%,25%'
+    start: '90%,25%'
+    duration: 1000
+- swipe:
+    end: '19%,25%'
+    start: '90%,25%'
+    duration: 1000
+- swipe:
+    end: '19%,25%'
+    start: '90%,25%'
+    duration: 1000
+- swipe:
+    end: '19%,25%'
+    start: '90%,25%'
+    duration: 1000
